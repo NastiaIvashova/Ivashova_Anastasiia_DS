@@ -1,6 +1,0 @@
-com\pizzarestaurant\orderservice\api\OrderController.class
-com\pizzarestaurant\orderservice\exception\OrderNotFoundException.class
-com\pizzarestaurant\orderservice\OrderServiceApplication.class
-com\pizzarestaurant\orderservice\repository\OrderRepository.class
-com\pizzarestaurant\orderservice\service\OrderService.class
-com\pizzarestaurant\orderservice\model\Order.class
