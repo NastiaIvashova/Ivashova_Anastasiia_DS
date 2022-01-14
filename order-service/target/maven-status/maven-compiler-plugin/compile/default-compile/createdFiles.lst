@@ -1,0 +1,7 @@
+com\pizzarestaurant\orderservice\repository\model\Order.class
+com\pizzarestaurant\orderservice\api\OrderController.class
+com\pizzarestaurant\orderservice\api\dto\Order.class
+com\pizzarestaurant\orderservice\OrderServiceApplication.class
+com\pizzarestaurant\orderservice\restTemplate\OrderRest.class
+com\pizzarestaurant\orderservice\repository\OrderRepository.class
+com\pizzarestaurant\orderservice\service\OrderService.class
