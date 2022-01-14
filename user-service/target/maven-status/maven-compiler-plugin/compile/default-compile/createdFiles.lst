@@ -1,0 +1,7 @@
+com\pizzarestaurant\userservice\api\UserController.class
+com\pizzarestaurant\userservice\restTemplate\UserRest.class
+com\pizzarestaurant\userservice\repository\model\User.class
+com\pizzarestaurant\userservice\repository\UserRepository.class
+com\pizzarestaurant\userservice\service\UserService.class
+com\pizzarestaurant\userservice\UserServiceApplication.class
+com\pizzarestaurant\userservice\api\dto\User.class
