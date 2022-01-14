@@ -1,0 +1,39 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: pizza-service
+spec:
+  selector:
+    app: pizza-service
+  type: NodePort
+  ports:
+    - name: http
+      port: 8084
+      nodePort: 30002
+
+
+---
+
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: pizza-service
+spec:
+  selector:
+    matchLabels:
+      app: pizza-service
+  replicas: 1
+  template:
+    metadata:
+      labels:
+        app: pizza-service
+    spec:
+      containers:
+        - name: service
+          image: ivashova2002/pizza-service
+          imagePullPolicy: IfNotPresent
+          ports:
+            - name: http
+              containerPort: 8084
+
+---
